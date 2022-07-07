@@ -1,15 +1,17 @@
+![image](https://user-images.githubusercontent.com/99324596/177729000-092508ee-7275-4471-a62d-2aa41a368d4b.png)
+
 # simple_shell
 Shell project in C programming 
 This is a project created by Obumneme Okoye and Amarachi Ihejiako. This project recreates the shell which is the Linux command line interpreter in its simplest form. It provides an interface between the user and the kernel and executes programs.
 
-Start
+# Start
 **1. Git clone this respository to your local directory. $ git clone https://github.com/Obumbillions/simple_shell.git
 
 **2. Compile the program. $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 **3. Now execute the shell. $ ./hsh
 
-Builtin Commands
+# Builtin Commands
 **This shell supports the next builtin commands:
 
 cd - change directory
@@ -24,7 +26,7 @@ pwd - Print the absolute pathname of the current working directory
 
 unsetenv - Remove an environment variable
 
-Delimit and comment commands
+# Delimit and comment commands
 ; - The semicolon. command separator that allows to run a command on a single line placing the semicolon between each command.
 
 - The command number. Allows a word beginning with # and all remaining characters on that line to be ignored.
